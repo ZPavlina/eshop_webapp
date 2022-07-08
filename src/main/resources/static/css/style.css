@@ -1,0 +1,156 @@
+body {
+    background-repeat: no-repeat;
+    background: url("../images/front_page.jpg");
+    /*background-size:cover;*/
+    background-position: top;
+    font-family: 'Capriola', sans-serif;
+    /*font-family: "Amatic SC";*/
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+    color:#00064A;
+    font-family: 'Amatic SC';
+}
+
+h1,
+a.titul {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    margin: 0px;
+}
+
+
+
+h2 {
+    font-size: 50px;
+    color: blanchedalmond;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px;
+}
+
+td, th {
+    padding: 5px 10px;
+    width: 500px;
+    height: 40px;
+}
+
+th {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+.cena,
+.detail{
+    text-align: right;
+}
+
+.nazev {
+    text-align: left;
+
+}
+
+table, td, th {
+    border: 1px solid;
+    color: blanchedalmond;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    border-color: black;
+}
+
+.tabulka {
+    padding: 50px 150px ;
+}
+
+.menu li {
+    margin: 15px;
+    display: inline-block;
+    font-family: 'Amatic SC';
+}
+
+.menu {
+
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgba(59, 16, 0, 0.4);
+    /*opacity: 0.7;*/
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+
+}
+.menu a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+p {
+    text-align: right;
+    color: blanchedalmond;
+    font-family: 'Amatic SC';
+    font-size: 70px;
+    margin-top: 30px;
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+a.kosik:link {color:blanchedalmond; text-decoration: none}
+a.kosik:visited {color:blanchedalmond;}
+a.kosik:hover {color:rgba(59, 16, 0, 0.6)}
+
+
+.button-52 {
+    font-family: "Amatic SC";
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 10px 17px 10px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+.button-52:after {
+    content: "";
+    background-color: rgba(255,235,205,0.6);
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.button-52:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+@media (min-width: 768px) {
+    .button-52 {
+        padding: 13px 40px 10px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}

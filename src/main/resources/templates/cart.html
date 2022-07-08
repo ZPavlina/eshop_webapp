@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../static/css/style.css"
+          th:href="${'css/style.css'}"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Lobster&display=swap" rel="stylesheet">
+
+    <title>nakup.cz</title>
+
+
+</head>
+<body>
+    <div class="page">
+
+        <p>
+            <a class="kosik" href="cart.html">Košík</a>
+        </p>
+
+
+        <h1>NAKUP.CZ</h1>
+
+        <ul class="menu">
+            <li><a href = "">Ovoce a zelenina</a></li>
+            <li><a href = "">Pečivo</a></li>
+            <li><a href = "">Mléčné výrobky</a></li>
+            <li><a href = "">Uzeniny</a></li>
+            <li><a href = "">Sladkosti</a></li>
+        </ul>
+
+        <h2>ZBOŽÍ V KOŠÍKU</h2>
+
+        <div class = "tabulka">
+        <table>
+            <tr>
+                <th class="nazev">Název</th>
+                <th class="cena">Cena</th>
+                <th class="detail"></th>
+            </tr>
+            <tr>
+                <td class="nazev">Jablko</td>
+                <td class="cena">16.90,-</td>
+                <td class="detail">Detail</td>
+            </tr>
+
+            
+        </table>
+        </div>
+
+    </div>
+</body>
+</html>
